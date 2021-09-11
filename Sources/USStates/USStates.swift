@@ -3,4 +3,8 @@ public struct USStates {
 
     public init() {
     }
+    
+    public enum States {
+        
+    }
 }
