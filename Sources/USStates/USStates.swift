@@ -2,56 +2,56 @@ public enum USStates: String, Codable {
     
     
     case alabama = "AL"
-    case alaska
-    case arizona
-    case arkansas
-    case california
-    case colorado
-    case connecticut
-    case delaware
-    case districtOfColumbia
-    case florida
-    case georgia
-    case hawaii
-    case idaho
-    case illinois
-    case indiana
-    case iowa
-    case kansas
-    case kentucky
-    case louisiana
-    case maine
-    case maryland
-    case massachusetts
-    case michigan
-    case minnesota
-    case mississippi
-    case missouri
-    case montana
-    case nebraska
-    case nevada
-    case newHampshire
-    case newJersey
-    case newMexico
-    case newYork
-    case northCarolina
-    case northDakota
-    case ohio
-    case oklahoma
-    case oregon
-    case pennsylvania
-    case rhodeIsland
-    case southCarolina
-    case southDakota
-    case tennessee
-    case texas
-    case utah
-    case vermont
-    case virginia
-    case washington
-    case westVirginia
-    case wisconsin
-    case wyoming
+    case alaska = "AK"
+    case arizona = "AZ"
+    case arkansas = "AR"
+    case california = "CA"
+    case colorado = "CO"
+    case connecticut = "CT"
+    case delaware = "DE"
+    case districtOfColumbia = "DC"
+    case florida = "FL"
+    case georgia = "GA"
+    case hawaii = "HI"
+    case idaho = "ID"
+    case illinois = "IL"
+    case indiana = "IN"
+    case iowa = "IA"
+    case kansas = "KS"
+    case kentucky = "KY"
+    case louisiana = "LA"
+    case maine = "ME"
+    case maryland = "MD"
+    case massachusetts = "MA"
+    case michigan = "MI"
+    case minnesota = "MN"
+    case mississippi = "MS"
+    case missouri = "MO"
+    case montana = "MT"
+    case nebraska = "NE"
+    case nevada = "NV"
+    case newHampshire = "NH"
+    case newJersey = "NJ"
+    case newMexico = "NM"
+    case newYork = "NY"
+    case northCarolina = "NC"
+    case northDakota = "ND"
+    case ohio = "OH"
+    case oklahoma = "OK"
+    case oregon = "OR"
+    case pennsylvania = "PA"
+    case rhodeIsland = "RI"
+    case southCarolina = "SC"
+    case southDakota = "SD"
+    case tennessee = "TN"
+    case texas = "TX"
+    case utah = "UT"
+    case vermont = "VT"
+    case virginia = "VA"
+    case washington = "WA"
+    case westVirginia = "WV"
+    case wisconsin = "WI"
+    case wyoming = "WY"
     
     var displayName: String {
         switch self {
