@@ -53,7 +53,7 @@ public enum USStates: String, Codable {
     case wisconsin = "WI"
     case wyoming = "WY"
     
-    var displayName: String {
+    public var displayName: String {
         switch self {
         case .alabama:
             return "Alabama"
@@ -160,7 +160,7 @@ public enum USStates: String, Codable {
         }
     }
     
-    var stateCode: String {
+   public var stateCode: String {
         switch self {
         case .alabama:
             return "AL"
